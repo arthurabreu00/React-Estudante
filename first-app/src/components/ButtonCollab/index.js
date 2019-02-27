@@ -1,7 +1,7 @@
 import Styled from 'styled-components';
 import {center} from '../../styles/tools'
 
-const Button = Styled.a`
+const ButtonCollab = Styled.a`
     box-sizing: border-box;
     display:block;
     width: 120px;
@@ -32,4 +32,4 @@ const Button = Styled.a`
 
 `;
 
-export default Button;    
+export default ButtonCollab;    

@@ -9,6 +9,7 @@ const Card = Styled.article`
     padding-bottom: 40px;
     ${center};
     width:370px;
+    margin-bottom: var(--spacing-big);
 `;
 
 export default Card;

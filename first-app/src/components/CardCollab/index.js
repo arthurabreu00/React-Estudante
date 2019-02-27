@@ -5,23 +5,24 @@ import Price from '../../objects/Price';
 import Description from '../../objects/Description';
 
 
-import Button from '../Button'
+import ButtonCollab from '../ButtonCollab'
 
 import Card from './styles'
 
-const CardCollab = ()=>{
-    return(
-        <Card>
-        <Name> Curso de React </Name>
-        <Price>$25</Price>
+const CardCollab = props =>(
+    <Card>
+        <Name> {props.name} </Name>
+        <Price> 
+            <small> c$</small> {props.price} 
+        </Price>
         <Description>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor, tellus eget ultrices porta, ligula metus molestie mi, sed lobortis est tellus ac arcu.
+        {props.description}
         </Description>
-        <Button primary>Buy</Button>
+        <ButtonCollab primary>Comprar</ButtonCollab>
     </Card>
     );
 
-}
+
 
 export default CardCollab;
 
