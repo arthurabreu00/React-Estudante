@@ -1,22 +1,33 @@
 import React from 'react';
 
-import Nav, { Toolbar } from './Style';
+import Nav, { Toolbar, NavItens, LinkNav, ListNav } from './Style';
+import {SpacerFlex} from '../../objects/FlexComponents'
+
+import DrawerToggle from '../../objects/DrawerToggle';
+import SideDrawers from '../../objects/SideDrawers';
 
 const NavBar = ()=>
     <Toolbar>
         <Nav>
             
             <span className="logo"> USTAD </span>
-            <span class="fas fa-bars    "></span>
-            <ul>
-                <li> <a href="/">  </a> </li>
-                <li> <a href="/">  </a> </li>
-                <li> <a href="/">  </a> </li>
-                <li> <a href="/">  </a> </li>
-                <li> <a href="/">  </a> </li>
-                <li> <a href="/">  </a> </li>
-                
-            </ul>
+          
+           
+          
+            <SpacerFlex/>
+            <NavItens>
+                <ListNav>
+                    <li> <LinkNav href="/"> lorem  </LinkNav> </li>
+                    <li> <LinkNav href="/"> lorem </LinkNav> </li>
+                    <li> <LinkNav href="/"> lorem </LinkNav> </li>
+                    <li> <LinkNav href="/"> lorem </LinkNav> </li>
+                    <li> <LinkNav href="/"> lorem </LinkNav> </li>
+                    <li> <LinkNav href="/"> lorem </LinkNav> </li>
+                    
+                </ListNav>
+            </NavItens>
+
+            <DrawerToggle />
         </Nav>
     </Toolbar>
 
