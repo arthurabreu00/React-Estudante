@@ -4,9 +4,9 @@ Repositorio com fins, de executar projetos para o aprendizado de React e React-N
 
 ## Projetos
 
-*[] Cards
-*[] Layout Marketplace
-*[] Portfolio
-*[] Conversor de moedas
-*[] Calculadora de IMC 
-*[] Aplicativo React Native (Indefinido)
+-[x] Cards
+-[] Portfolio
+-[x] Conversor de moedas
+-[] Calculadora de IMC 
+-[] Aplicativo React Native (Indefinido)
+x
