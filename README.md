@@ -7,6 +7,4 @@ Repositorio com fins, de executar projetos para o aprendizado de React e React-N
 - [x] Cards
 - [x] Portfolio
 - [x] Conversor de moedas
-- [x] Calculadora de IMC 
-- [x] Aplicativo React Native
-
+- [x] Calculadora de IMC (React Native))
